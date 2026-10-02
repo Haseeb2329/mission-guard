@@ -46,3 +46,13 @@ The API runs on loopback by default. `/api/state` reads the current simulation. 
 - Telemetry is simulated, no spacecraft or actual ground station is connected. No persistence, multiuser support, secure deployment, or real cryptographic telemetry verification is claimed.
 
 See [architecture and Q&A notes](docs/EXAM_NOTES.md).
+
+## Screenshots
+
+Dashboard after recovery, showing nominal telemetry and resolved alerts:
+
+![Mission Guard dashboard](docs/screenshots/dashboard.png)
+
+Audit events showing simulated incidents and recovery:
+
+![Mission Guard audit events](docs/screenshots/audit-events.png)
